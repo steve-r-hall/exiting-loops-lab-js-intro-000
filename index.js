@@ -21,7 +21,7 @@ function keepGoing(array, changeValue, skipValue) {
 function findBy(array, findFn) {
 var cnt = 0
 for (let i = 0; i < array.length; i++) {
-  if (array[i] === 'findFn') {
+  if (array[i] === findFn) {
     return array[i]
   }
  cnt = cnt + 1
