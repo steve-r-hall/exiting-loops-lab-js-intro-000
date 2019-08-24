@@ -19,7 +19,7 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn)
-cnt = 0
+var cnt = 0
 for (let i = 0; i < array.length; i++) {
   if (array[i] === 'findFn') {
     return array[i]
